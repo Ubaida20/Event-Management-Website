@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(NEQc.gif);
+}
+h1{
+    background-color:transparent;
+    color:#FFCC00;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:18px;
+    animation: text 5s infinite linear;
+    }
+    @keyframes text{
+        0%{
+          margin-bottom: -10px;
+        }
+        30%{
+          letter-spacing: 5px;
+          margin-bottom: -10px;
+        }
+      }
+pre,a,h2{
+        background-color:transparent;
+        color:#FFCC00;
+        font-family:Georgia, "Times New Roman", Times, serif;
+        font-size:18px;
+        }

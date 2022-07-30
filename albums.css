@@ -1,0 +1,29 @@
+body
+{background-image:url(NEQc.gif );
+ 
+
+
+}
+.heading{
+
+background-color:transparent;
+border: solid #FFCC00;
+width:95%;
+height:200px;
+margin:25px;
+padding:30px;
+
+font-family: 'Brush Script MT', cursive;
+font-size:22px;
+border-radius: 25px;
+
+}
+.albums
+{
+margin:20px;
+text-align:center;
+float:center;
+
+background-repeat: no-repeat;
+background-size: cover;
+}

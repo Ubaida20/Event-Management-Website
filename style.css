@@ -1,0 +1,178 @@
+/* CSS Document */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body
+{background-image:url(NEQc.gif ); 
+}
+img {vertical-align: middle;}
+table
+{
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+.table{
+display:inline;
+}
+.email
+{
+background-color:transparent;
+}
+ul#horizontal-list {
+	text-indent:5em;
+	word-spacing:1em;
+	background-color:transparent;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  height: 60px;
+  margin-bottom: 10px;
+	}
+	ul#horizontal-list li {
+display: inline;
+  }
+body{
+padding-top:inherit;
+}
+.slideshow{
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%,-50%);
+  background-image: url(backimg.gif);
+  background-size: 100%,100%;
+  animation: slider 20s infinite linear;
+}
+@keyframes slider{
+0%{
+  background-image: url(backimg.gif);
+}
+33%{
+background-image: url(5752a_Wedding-Decor-Theme-12.1.jpg);
+}
+66%{
+  background-image: url(wedding.jpg.jpeg);
+}
+99%{
+  background-image: url(wedding-decor-set-1366x768.gif);
+}
+100%{
+  background-image: url(65bdc9c5c9b8e7d4f85437bd5207d5e3.jpg);
+}
+}
+.background_text{
+  background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); /* to make the image clear through background */
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+    font-size:30px;
+    color:#E8DE26;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);/* to keep the border in the center */
+    width: 50%;
+    text-align: center;
+    border-radius: 25px;
+    display:inline;
+    align-items: center;
+    animation: text 5s 1;
+  }
+@keyframes text{
+  0%{
+    margin-bottom: -10px;
+  }
+  30%{
+    letter-spacing: 3px;
+    margin-bottom: -10px;
+  }
+}
+.Weddings
+{padding: 2px;
+border-radius: 25px;
+color:#000000;
+width:30%;
+height: 12%;
+font-size:18px;
+margin-top:35%;
+margin-right: 15px;
+margin-left: 30px;
+margin-bottom: 20px;
+text-align:center;
+float:left;
+background-image:url(wedding-background-gold-rings-gentle-flower-light-pin-eustoma-rose-pink-feather-48024459.jpg);
+filter: blur 1px;
+
+}
+.birthday
+{padding: 2px;
+border-radius: 25px;
+width:30%;
+height: 12%;
+margin-right: 15px;
+color:#000000;
+font-size:18px;
+margin-top:35%;
+text-align:center;
+float:left;
+margin-bottom: 20px;
+background-image:url(candles-birthday.jpg);
+filter: blur 1px;
+}
+.anniverseries
+{padding: 2px;
+border-radius: 25px;
+width:30%;
+height: 12%;
+margin-right: 10px;
+font-size:18px;
+margin-top:35%;
+text-align:center;
+float:left;
+margin-bottom: 10px;
+background-image:url(Wedding-Anniversary.jpg);
+filter: blur 1px;
+color:#000000;
+}
+
+a:link{
+  padding: 10px;
+  text-align: center;
+  display:inline-block;
+  color:#E8DE26;
+}
+a:active{
+  color:#E8DE26;
+}
+a:hover{color:#E8DE26;}
+a:visited
+{color:#E8DE26;}
+a:link{
+ color:#E8DE26 ;
+}
+.borders
+{
+background-color:transparent;
+border:solid #FFCC00;
+width:100%;
+height:200px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:14px;
+color:#FFCC00;
+font-weight:bolder;
+margin-bottom: 10px;
+margin-top: 35%;
+}
+.Experience
+{background-color:transparent;
+border: solid #FFCC00; ;
+width:90%;
+height:500%;
+margin:auto;
+padding:30px;
+color:#FFCC00 ;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:22px;
+border-radius: 25px;
+vertical-align: middle;
+}

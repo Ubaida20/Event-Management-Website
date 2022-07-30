@@ -1,0 +1,52 @@
+body
+{background-image:url(NEQc.gif ); 
+}
+.heading{
+
+background-color:transparent;
+border: solid #FFCC00;
+width:95%;
+height:200px;
+margin:25px;
+padding:30px;
+color:#000000;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:22px;
+border-radius: 25px;
+animation: text 5s infinite linear;
+}
+@keyframes text{
+  0%{
+    margin-bottom: -10px;
+  }
+  30%{
+    letter-spacing: 5px;
+    margin-bottom: -10px;
+  }
+}
+ th{border: solid #FFCC00;}
+.albums
+{
+  margin: 70px; 
+text-align:center;
+float: left;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 10px;
+ color:#E8DE26;
+}
+a:link{
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+    color:#E8DE26;
+  }
+  a:active{
+    color:#E8DE26;
+  }
+  a:hover{color:#E8DE26;}
+  a:visited
+  {color:#E8DE26;}
+  a:link{
+   color:#E8DE26 ;
+  }

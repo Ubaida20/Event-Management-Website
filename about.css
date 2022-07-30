@@ -1,0 +1,51 @@
+body
+{background-image:url(NEQc.gif ); 
+}
+h1,h4,p,pre,a,h2{
+background-color:transparent;
+color:#FFCC00;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+}
+h1
+{border: solid #FFCC00;
+width:95%;
+height:50px;
+margin:25px;
+text-align:center;
+border-radius: 25px;
+font-size:200%;
+animation: text 5s 1;
+}
+@keyframes text{
+    0%{
+      margin-bottom: -10px;
+    }
+    30%{
+      letter-spacing: 5px;
+      margin-bottom: -10px;
+    }
+  }
+.bottom
+{position:absolute;
+left:50%;
+top:60%;
+font-size:40px;
+font-family:algerian;
+color:#FFCC00;
+}
+h4
+{font-size:20px;}
+.UST,.name,.main
+{
+    text-align:center;
+display:block;
+margin-left:auto;
+margin-right:auto;
+color:#FFCC00;
+}
+h2
+{font-family:algerian; 
+font-size:40px;}
+.r
+{border-radius:50%;}
